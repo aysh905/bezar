@@ -1,0 +1,140 @@
+.gm-style-iw {
+  left: 0 !important;
+  top: 0 !important;
+  position:initial !important;
+}
+.firstHeading {
+  background: hsl(198, 93%, 30%) none repeat scroll 0 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 26px;
+  margin: 0;
+  min-height: 100% !important;
+  overflow: hidden !important;
+  padding-left: 5px !important;
+  padding-top: 7px !important;
+  position:absolute;
+}
+#bodyContent {
+  padding-left: 60px !important;
+  padding-top: 5px !important;
+}
+.domain {
+  color: hsl(198, 93%, 30%);
+  font-weight: 600;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+.title-domain {
+  font-size: 18px;
+}
+.tele-num {
+  font-size: 17px;
+  font-weight: bold;
+}
+.map-container {
+  position: relative;
+}
+.search-box {
+  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  position: absolute;
+  top: 25px;
+  left:33px;
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+}
+.zip-search {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-radius: 0;
+  display: inline-block;
+  margin-right: 16px;
+  width: 178px;
+}	
+.padding-zero {
+  padding: 0;
+}
+.zip-top-row {
+  background: hsl(0, 0%, 91%) none repeat scroll 0 0;
+  border-bottom: 2px solid hsl(0, 0%, 76%);
+  border-top: 3px solid hsl(0, 0%, 100%);
+  padding: 13px 0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.dealer-ticker-full-width {
+  background: hsl(6, 67%, 45%) none repeat scroll 0 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 14px 3px 3px;
+  text-align: right;
+}
+.address-search-box {
+  color: hsl(0, 0%, 30%);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.address-search-detail-box {
+  font-size: 12px;
+  color: hsl(0, 0%, 30%);
+}
+.domain-sub-domain-img{
+  text-align: center;
+  color: hsl(0, 0%, 30%);
+}
+.padding-right-zero{
+  padding-right:0;
+}
+.address-search-detail-number {
+  font-size: 11px;
+  font-weight: 600;
+}
+.search-location-button {
+  background: hsl(92, 9%, 32%) none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 0;
+  font-weight: 600;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 3px 3px 0px 0px rgba(110,112,111,1);
+  -moz-box-shadow: 3px 3px 0px 0px rgba(110,112,111,1);
+  box-shadow: 3px 3px 0px 0px rgba(110,112,111,1);
+}
+.dealer-ticker-full-width.distributor {
+  background: hsl(220, 1%, 50%) none repeat scroll 0 0;
+}
+.dealer-ticker-full-width.dealer {
+  background: #056792;
+}
+.search-result-row{
+  clear: both;
+}
+.search-result-row {
+  display: inline-block;
+  width: 100%;
+}
+.dir-dailer.mobile-display {
+  clear: both;
+  padding-bottom: 8px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+.search-box{
+  left: auto;
+  position: relative;
+  top: inherit;
+}
+}
+@media screen and (min-width: 786px) {
+.mobile-display{
+  display:none;
+}
+}
+@media screen and (max-width: 787px) {
+.desktop-display{
+  display:none;
+}
+}
