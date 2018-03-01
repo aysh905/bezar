@@ -121,6 +121,10 @@
   padding-bottom: 8px;
   text-align: center;
 }
+.scroll-height{
+  height:370px;
+  overflow-y:auto;
+}
 @media screen and (max-width: 767px) {
 .search-box{
   left: auto;
